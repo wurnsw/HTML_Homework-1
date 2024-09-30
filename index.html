@@ -1,11 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 1</title>
   </head>
   <body>
-    <h1>Start developing here</h1>
+    <header class="header">
+      <a class="header__logo logo" href="#">WebStudio</a>
+
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item active"><a href="#">Студія</a></li>
+          <li class="nav__item"><a href="#">Портфоліо</a></li>
+          <li class="nav__item"><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <a class="header__email email active" href="#">info@devstudio.com</a>
+      <p class="header__number namber">+38 096 111 11 11</p>
+    </header>
+    <main class="main">
+      <section class="main__banner banner">
+        <h1 class="banner__main-text">Ефективні рішення для вашого бізнесу</h1>
+        <button class="banner__button">Замовити послугу</button>
+      </section>
+
+      <section class="main__features features">
+        <article class="features__item item">
+          <h3 class="item__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+
+          <p class="item__description">
+            Ідейні міркування, і навіть початок повсякденної роботи з формування
+            позиції.
+          </p>
+        </article>
+
+        <article class="features__item item">
+          <h3 class="item__title">ПУНКТУАЛЬНІСТЬ</h3>
+
+          <p class="item__description">
+            Завдання організації, особливо рамки і місце навчання кадрів тягне у
+            себе.
+          </p>
+        </article>
+
+        <article class="features__item item">
+          <h3 class="item__title">ПЛАНУВАННЯ</h3>
+
+          <p class="item__description">
+            Так само консультація з широким активом значною мірою зумовлює.
+          </p>
+        </article>
+
+        <article class="features__item item">
+          <h3 class="item__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+
+          <p class="item__description">
+            Значимість цих проблем настільки очевидна, що реалізація планових
+            завдань.
+          </p>
+        </article>
+      </section>
+
+      <section class="main__services services">
+        <h2 class="services__title title">Чим ми займаємося</h2>
+
+        <div class="services__container">
+          <img
+            class="services__image"
+            src="./images/services--1.jpg"
+            alt="First image in services"
+            width="370px"
+          />
+        </div>
+        <div class="services__container">
+          <img
+            class="services__image"
+            src="./images/services--2.jpg"
+            alt="Second image in services"
+            width="370px"
+          />
+        </div>
+        <div class="services__container">
+          <img
+            class="services__image"
+            src="./images/services--3.jpg"
+            alt="Third image in services"
+            width="370px"
+          />
+        </div>
+      </section>
+
+      <section class="main__team team">
+        <h2 class="team__title title">Наша команда</h2>
+        <ul class="team__list">
+          <li class="team__card card">
+            <img
+              class="card__image"
+              src="./images/team--1.jpg"
+              alt="First image in cards"
+              width="270px"
+            />
+            <p class="card__name">Ігор Дем'яненко</p>
+            <p class="card__skill">Product Designer</p>
+          </li>
+          <li class="team__card card">
+            <img
+              class="card__image"
+              src="./images/team--2.jpg"
+              alt="Second image in cards"
+              width="270px"
+            />
+            <p class="card__name">Ольга Рєпіна</p>
+            <p class="card__skill">Frontend Developer</p>
+          </li>
+          <li class="team__card card">
+            <img
+              class="card__image"
+              src="./images/team--3.jpg"
+              alt="Third image in cards"
+              width="270px"
+            />
+            <p class="card__name">Микола Тарасов</p>
+            <p class="card__skill">Marketing</p>
+          </li>
+          <li class="team__card card">
+            <img
+              class="card__image"
+              src="./images/team--4.jpg"
+              alt="Fourth image in cards"
+              width="270px"
+            />
+            <p class="card__name">Михайло Єрмаков</p>
+            <p class="card__skill">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="footer__logo logo" href="#">WebStudio</a>
+
+      <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
+
+      <a class="footer__email email" href="#">info@devstudio.com</a>
+
+      <p class="footer__number namber">+38 096 111 11 11</p>
+    </footer>
   </body>
 </html>
